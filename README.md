@@ -78,5 +78,6 @@ Java(TBD) ⤶ ⤷ IA(TBD)
 
 99. Ejercicios y ejemplos
     1. [Ejercicio de herencia, polimorfismo, sobreescritura y elementos estáticos](/JS/99.Ejercicios/01.herencia.js)
+    2. [Sistema de ventas básico](/JS/99.Ejercicios/02.sistemaVentas.js)
 
 [Volver al inicio](#)
