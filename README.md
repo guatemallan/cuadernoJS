@@ -78,6 +78,13 @@ Java(TBD) ⤶ ⤷ IA(TBD)
 
 99. Ejercicios y ejemplos
     1. [Ejercicio de herencia, polimorfismo, sobreescritura y elementos estáticos](/JS/99.Ejercicios/01.herencia.js)
+
+        ![UML Ejercicio](/JS/99.Ejercicios/01.herencia.jpg "UML ejercicio herencia")
+
     2. [Sistema de ventas básico](/JS/99.Ejercicios/02.sistemaVentas.js)
+
+        ![UML Ejercicio](/JS/99.Ejercicios/02.sistemaVentas.png "UML ejercicio ventas")
+
+
 
 [Volver al inicio](#)

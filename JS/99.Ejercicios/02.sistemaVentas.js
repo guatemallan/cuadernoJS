@@ -3,6 +3,8 @@
 Clases:
     - Producto
     - Orden
+
+    ver diagrama UML en archivo 02.sistemaVentas.png
 */
 
 class Producto{
