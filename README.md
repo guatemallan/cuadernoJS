@@ -84,6 +84,10 @@ Java(TBD) ⤶ ⤷ IA(TBD)
     2. [Sistema de ventas básico](/JS/99.Ejercicios/02.sistemaVentas.js)
 
         ![UML Ejercicio](/JS/99.Ejercicios/02.sistemaVentas.png "UML ejercicio ventas")
+    3. [Mundo PC](/JS/99.Ejercicios/03.proyectoMundoPC.js)
+        
+        ![UML Ejercicio](/JS/99.Ejercicios/03.proyectoMundoPc.UML.png)
+        ![Ejemplo Output](/JS/99.Ejercicios/03.proyectoMundoPc.Output.png)
 
 
 

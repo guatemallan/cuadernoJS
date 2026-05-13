@@ -67,7 +67,7 @@ class Orden{
         let productosOrden = '';
         let contador = 0;
         for (let producto of this._productos){
-            productosOrden += 'Linea ' + (++contador) + producto.toString() + '\n'\\;
+            productosOrden += 'Linea ' + (++contador) + producto.toString() + '\n';
         }
         // no olvidar parentesis
         console.log(`Orden #: ${this._idOrden}
