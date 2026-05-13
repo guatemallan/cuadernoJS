@@ -143,7 +143,7 @@ class Orden{
     }
 }
 
-// 
+// Pruebas
 
 let ratonUno = new Raton('Bluetooth', 'Microsoft');
 console.log(ratonUno.toString());
