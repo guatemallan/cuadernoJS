@@ -3,6 +3,8 @@
 aplicar herencia, sobrecarga y polimorfismo
 
 new Date();
+
+Ver UML en archivo 01.herencia.jpg
 */
 
 class Persona{
