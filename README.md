@@ -75,6 +75,12 @@ Java(TBD) ⤶ ⤷ IA(TBD)
     5. [Clase *Object* y polimorfismo](/JS/09.clases/05.claseObjectPolimorfismo.js)
     6. [Elementos estáticos](/JS/09.clases/06.static.js)
     7. [Emulación de constante estática](/JS/09.clases/07.constanteEstatica.js)
+10. [Strict, el modo estricto](JS/10.strict/01.strict.js)
+11. [Programación orientada a objetos (POO, OOP)](/JS/11.POO/01.sobreescrituraYPolimorfismo.js)
+12. Manejo de errores
+    1. [Bloque *Try-Catch-Finally*](/JS/12.manejoErrores/01.tryCatch.js)
+    2. [Throw](/JS/12.manejoErrores/02.throw.js)
+13. Funciones tipo flecha
 
 99. Ejercicios y ejemplos
     1. [Ejercicio de herencia, polimorfismo, sobreescritura y elementos estáticos](/JS/99.Ejercicios/01.herencia.js)
