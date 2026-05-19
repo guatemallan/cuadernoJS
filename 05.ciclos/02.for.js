@@ -16,3 +16,4 @@ for (let i = 0, j = 10; i < 5; i++, j--) {
 
 console.log('Fin del ciclo For con múltiples variables');   
 
+// for (let elemento of arregloElementos)
