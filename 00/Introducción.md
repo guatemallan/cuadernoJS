@@ -1,10 +1,26 @@
 # JavaScript
 
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) es un lenguaje de programación interpretado [JIT](#jit) con [funciones de primera clase](#funciones-de-primera-clase). Es conocido como el lenguaje script para páginas web. Sin embargo, es utilizado también en ambientes no web, como Node.js. 
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) es un lenguaje de programación interpretado [JIT](#jit) con [funciones de primera clase](#funciones-de-primera-clase). Es conocido como el lenguaje script para páginas web. Sin embargo, es utilizado también en ambientes no web, como Node.js. Es un lenguaje orientado a objetos, utiliza clases y objetos. 
 
 La mayoría de navegadores web, como Chrome, Safari, Firefox, Edge, etc. tienen la capacidad de interpretar JavaScript. 
 
-JS es utilizado en la capa de presentación para realizar tareas desde el navegador, con frameworks como React, Angular, Vue.js y otros. También es utilizado en backend con frameworks como Node.js y otros.
+JS es utilizado en la capa de presentación en conjunto con HTML y CSS para realizar tareas desde el navegador. También es utilizado en backend, e incluso aplicaciones de escritorio.
+
+Existen muchas tecnologías, extensiones, librerias creadas a partir de JavaScript, como Node.js, React, Angular, TypeScript, etc.
+
+## Lenguajes Compilados VS Interpretados
+
+Los lenguajes compilados son converidos en su totalidad a código de máquina, y así la computadora interpreta el código. Ejemplos C, C++, Java, C#, etc.
+
+Un lenguaje interpretado (Como JavaScript) se ejecuta línea a línea por el interprete. Ejemplos JavaScript, Python, Ruby, etc.   
+
+### Compilado
+
+Código Fuente → Compilador → Código Máquina → Salida
+
+### Interpretado
+
+Código Fuente → Interprete → Salida
 
 ## [JIT](https://developer.mozilla.org/en-US/docs/Glossary/Just_In_Time_Compilation)
 

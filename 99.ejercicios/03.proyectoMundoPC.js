@@ -123,6 +123,7 @@ class Orden{
     static contadorOrdenes = 0;
     constructor(){
         this._idOrden = ++Orden.contadorOrdenes;
+        // inicialización del arreglo de computadoras
         this._computadoras = [];
     }
     get idOrden(){
@@ -134,7 +135,8 @@ class Orden{
     toString(){
         let descripcionOrden = `Orden: ${this._idOrden}, Computadoras:\n`;
         for (let computadora of this._computadoras){
-            descripcionOrden += computadora.toString() + '\n';
+            // descripcionOrden += computadora.toString() + '\n';
+            descripcionOrden += `${computadora}\n`;
         }
         return descripcionOrden;
     }
@@ -156,6 +158,10 @@ console.log(monitorUno.toString());
 
 let computadoraUno = new Computadora('Desktop Dell 880', monitorUno, tecladoUno, ratonUno);
 console.log(computadoraUno.toString());
+
+// uso de template string para imprimir
+// este metodo invoca directamente a la function toString() del objeto
+console.log(`${computadoraUno}`);
 
 let ordenUno = new Orden();
 ordenUno.agregarComputadora(computadoraUno);
