@@ -97,7 +97,12 @@ Java(TBD) ⤶ ⤷ IA(TBD)
     4. [*await*](/15.promesas/04.awaitAsync.js)
     5. [*async*, *await* y *setTimeout*](/15.promesas/05.asyncAwaitSetTimeout.js)
 
-16. DOM HTML y JavaScript
+16. [DOM HTML y JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)[<sup>1<sup>](/README.md#1-html-y-css-son-prerequisitos)
+    1. [*getElemensById()*](/16.DOM/01.getElementById.html)
+    2. [*getElementsByTagName()*](/16.DOM/02.getElementByTagName.html)
+    3. [*getElementsByClassName()*](/16.DOM/03.getElementsByClassName.html)
+    4. [*querySelectorAll()*](/16.DOM/04.querySelectorAll().html)
+    5. [Formularios DOM JS](/16.DOM/05.formulariosDOM.html)
 
 99. Ejercicios y ejemplos
     1. [Ejercicio de herencia, polimorfismo, sobreescritura y elementos estáticos](/99.ejercicios/01.herencia.js)
@@ -110,6 +115,7 @@ Java(TBD) ⤶ ⤷ IA(TBD)
         ![UML Ejercicio](/99.ejercicios/03.proyectoMundoPc.UML.png)
         ![Ejemplo Output](/99.ejercicios/03.proyectoMundoPc.Output.png)
 
-
+### Notas
+#### <sup>1<sup> HTML y CSS son prerequisitos
 
 [Volver al inicio](#)

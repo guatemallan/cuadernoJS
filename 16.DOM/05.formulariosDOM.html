@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario DOM JS</title>
+</head>
+<body>
+    <form id="formulario">
+        Nombre: <input type="text" name="nombre" value="Juan"/><br/>
+        Apellido: <input type="text" name="apeliido" value="Valdez"/><br/>
+    </form>
+    <!-- boton con función JS fuera del formulario -->
+    <button onclick="mostrarValores()">Mostrar valores...</button>
+
+    <div id="valores"></div>
+
+    <script>
+        function mostrarValores(){
+            let formulario = document.forms['formulario'];
+            let texto ='';
+            for(let elemento of formulario){
+                texto += elemento.value + '<br/>';
+            }
+            console.log(texto);
+            // vamos a agregar los valores al div valores
+            document.getElementById('valores').innerHTML = texto;
+        }
+    </script>
+</body>
+</html>

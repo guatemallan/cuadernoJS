@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector ALL</title>
+    <style>
+        .verde{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="verde">Ejemplo funcion querySelectorAll()</h1>
+
+    <p class="verde">Este es el párrafo uno</p>
+    <p>Este es el párrafo dos</p>
+    <p class="verde">Este es el párrafo tres</p>
+    <script>
+        // selecciona elementos tipo <p> con clase verde
+        let elementos = document.querySelectorAll('p.verde');
+        console.log(`Cantidad de elementos: ${elementos.length}`);
+
+        for (let i = 1; i<=elementos.length; i++){
+            console.log(`Elemento ${i}: ${elementos[i-1].innerHTML}`);
+        }
+    </script>
+</body>
+</html>

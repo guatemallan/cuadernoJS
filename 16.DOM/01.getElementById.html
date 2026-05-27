@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 id='cabecero'>Ejemplo DOM con JavaScript</h1>
+    <p id='parrafo'>Saludos!</p>
+
+    <!-- ESTE SCRIPT DEBE ESTAR DESPUÉS de los elementos que queremos manipular, o no podra accederlos. -->
+    <script>
+         /**
+         * DOM - Document Object Model
+         * The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. Usually it refers to JavaScript, even though modeling HTML, SVG, or XML documents as objects are not part of the core JavaScript language.
+         * https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+         * 
+         * En JavaScript podemos utilizar DOM para modificar paginas HTML y otros tipos de documentos.
+         * En JavaScript, cada elemento del HTML (Root, Head, Body, Tilte, etc), es un objeto
+         * 
+         * Para acceder a los elementos hay que asignar IDs a los elementos
+         */
+
+        console.log('Saludos desde HTML JavaScript!!!!')
+
+        // iniciamos la variable para apuntar al objeto 'cabecero'
+        let cabecero = document.getElementById('cabecero');
+        console.log('Texto cabecero: ' + cabecero.innerHTML);
+
+        let parrafo = document.getElementById('parrafo').innerHTML;
+        console.log('Texto parrafo: ' + parrafo);
+
+        // imprimiendo del objeto
+        console.log(`Objeto cabecero: ${cabecero}`);
+        // console.log(cabecero);
+
+        // MODIFICAR EL CONTENIDO DEL HTML
+        
+        cabecero.innerHTML = 'Cambio de texto del Cabecero!!';
+        
+        let parrafoObjeto = document.getElementById('parrafo');
+        
+        parrafoObjeto.innerHTML = 'Cambio del contenido del parrafo, intento 2!';
+        
+        console.log('Impresion del parrafoObjeto:')
+        console.log(parrafoObjeto);
+        
+        // esto no funciona, ya que obtuvimos el texto, no el objeto parrafo
+        parrafo.innerHTML = 'Nuevo contenido del párrafo!';
+        parrafo = "Nuevo contenido del parrafo";
+
+    </script>
+</body>
+</html>

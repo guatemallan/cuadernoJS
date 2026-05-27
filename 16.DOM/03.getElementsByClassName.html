@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Name</title>
+    <style>
+        .azul{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="azul">Ejemplo de funcion getElementsByClassName()</h1>
+    <p class="azul">Este es el parrafo uno</p>
+    <p class="azul">Este es el parrafo dos</p>
+    <p>Este es el parrafo tres</p>
+
+    <script>
+        let elementos = document.getElementsByClassName('azul');
+        console.log(`Cantidad de elementos: ${elementos.length}`);
+
+        for (let i = 1; i<=elementos.length; i++){
+            console.log(`Elemento ${i}: ${elementos[i-1].innerHTML}`);
+        }
+
+    </script>
+</body>
+</html>

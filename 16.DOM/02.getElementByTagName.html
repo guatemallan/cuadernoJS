@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementsByTagName</title>
+</head>
+<body>
+    <h1 id="cabecero">Cabecero 1</h1>
+    <p id="parrafo">Este es el parrafo.</p>
+    <!-- con getElementsByTagName no es necesario el id -->
+    <p>Este es otro parrafo</p>
+
+    <script>
+        // arreglo de elementos de tipo parrafo <p>
+        let parrafos = document.getElementsByTagName('p');
+        console.log (`Cantidad de párrafos: ${parrafos.length}`);
+
+        for (let i=0; i<parrafos.length; i++){
+            console.log(`Parrafo ${i}: ${parrafos[i].innerHTML}`);
+        }
+        for (let parrafo of parrafos){
+            console.log(parrafo.innerHTML);
+        }
+    </script>
+</body>
+</html>
