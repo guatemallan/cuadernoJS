@@ -103,6 +103,10 @@ Java(TBD) ⤶ ⤷ IA(TBD)
     3. [*getElementsByClassName()*](/16.DOM/03.getElementsByClassName.html)
     4. [*querySelectorAll()*](/16.DOM/04.querySelectorAll().html)
     5. [Formularios DOM JS](/16.DOM/05.formulariosDOM.html)
+    6. [*document.write()*](/16.DOM/06.document.write.html)
+    7. [Modificación de atributos usando DOM](/16.DOM/07.modificacionAtributosConDOM.html)
+    8. [Cambio de estilo usando DOM](/16.DOM/08.cambioCSSconDOM.html)
+17. Manejo de eventos con DOM, HTML y JS
 
 99. Ejercicios y ejemplos
     1. [Ejercicio de herencia, polimorfismo, sobreescritura y elementos estáticos](/99.ejercicios/01.herencia.js)

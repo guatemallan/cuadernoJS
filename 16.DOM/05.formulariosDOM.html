@@ -8,7 +8,7 @@
 <body>
     <form id="formulario">
         Nombre: <input type="text" name="nombre" value="Juan"/><br/>
-        Apellido: <input type="text" name="apeliido" value="Valdez"/><br/>
+        Apellido: <input type="text" name="apellido" value="Valdez"/><br/>
     </form>
     <!-- boton con función JS fuera del formulario -->
     <button onclick="mostrarValores()">Mostrar valores...</button>
@@ -25,6 +25,18 @@
             console.log(texto);
             // vamos a agregar los valores al div valores
             document.getElementById('valores').innerHTML = texto;
+
+            // OTRA MANERA DE ACCEDER A LOS OBJETOS
+            // recuperamos directamente el objeto <input> de nombre
+            let nombre = formulario['nombre'];
+
+            // recuperamos directamente el objeto <input> de apellido
+            let apellido = formulario['apellido'];
+
+            console.log(nombre);
+            console.log(nombre.value);
+            console.log(apellido);
+            console.log(apellido.value);
         }
     </script>
 </body>
