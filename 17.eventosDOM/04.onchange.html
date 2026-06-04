@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onchange</title>
+</head>
+<body>
+
+    <h1 id="titulo">Manejo de eventos con DOM</h1>
+    <br/>
+    Nombre: <input type="text" onchange="convertir(this)"/>
+    <script>
+        function convertir(input){
+            // let nombre = document.getElementById = 'nombre';
+            // value en este caso es de tipo string, porque el elemento es tipo texto
+            // por lo que se puede aplicar funciones de la clase string, como toUpperCase()
+            input.value = input.value.toUpperCase();
+        }
+    </script>
+</body>
+</html>
