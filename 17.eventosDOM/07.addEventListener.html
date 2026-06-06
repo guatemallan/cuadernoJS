@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento addEventListener</title>
+</head>
+<body>
+
+   <h1 id="titulo" >Manejo de eventos con DOM</h1>
+
+    <br/>
+
+    Nombre: <input type="text" id="nombre"/>
+
+    <br/><br/>
+    Apellido: <input type="text" id="apellido"/>
+
+    <script>
+        // asociacion de eventos desde JS
+        // quitamos el 'on', en este caso asociamos el evento 'onfocus'. esta referencia es una funcion callback
+        document.getElementById('nombre').addEventListener('focus', cambiar);
+        document.getElementById('nombre').addEventListener('blur', regresar);
+
+        document.getElementById('apellido').addEventListener('focus', cambiar);
+        document.getElementById('apellido').addEventListener('blur', regresar);
+
+        function cambiar(evento){
+            // en este caso usamos 'target' para obtener el elemento en lugar de 'this'
+            // evento.target.style.background = 'yellow';
+            let elemento = evento.target;
+            elemento.style.background = 'yellow';
+        }
+        function regresar(evento){
+            evento.target.style.background = 'white';
+        }
+    </script>
+</body>
+</html>

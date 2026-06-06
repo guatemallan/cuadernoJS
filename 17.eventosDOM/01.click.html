@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onCLICK</title>
+</head>
+<body>
+    <!-- Accedemos a los eventos con el prefijo 'on', en este caso ONclick -->
+
+    <!-- Podemos llamar a una funcion o... -->
+    <!-- <h1 onclick="cambiar()">Manejo de eventos con DOM</h1> -->
+    <!-- Acceder al código JS directamente, al invocar eventos con 'on' se crea un apuntador 'this' en JS que apunta al elemento html -->
+     <!-- a pesar de esto, eso no es una buena practica. a continuacion definiremos una funcion -->
+    <!-- <h1 onclick="this.innerHTML='Nuevo título'">Manejo de eventos con DOM</h1> -->
+
+    <h1 onclick="cambiarTexto(this)">Manejo de eventos con DOM</h1>
+
+    <br/>
+
+    <script>
+        function cambiarTexto(titulo){
+            console.log(`Titulo original: ${titulo.innerHTML}`);
+
+            // punto y coma opcional, ya que solo es una linea
+            // sin embargo no es buena práctica
+            titulo.innerHTML = 'Nuevo título desde la función';
+
+            console.log(`Titulo nuevo: ${titulo.innerHTML}`);
+        }
+    </script>
+</body>
+</html>

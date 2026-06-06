@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación de Eventos</title>
+</head>
+<body>
+    <!-- La asociación de eventos a elementos también se puede realizar desde JS, haciendo que el coódigo sea mucho mas dinámico -->
+
+    <h1 id="titulo">Manejo de eventos con DOM</h1>
+
+    <br/>
+
+    <div id="mostrar"></div>
+
+    <script>
+        // asignamos la referencia a la funcion cambiarTexto al evento onclick del título 
+        // esto es una función callback
+        document.getElementById('titulo').onclick = cambiarTexto;
+
+        function cambiarTexto(){
+            // document.getElementById('titulo').innerHTML = 'Cambiamos titulo desde JS con onclick';
+            document.getElementById('mostrar').innerHTML = 'Asignamos texto al DIV desde JS con onclick';
+        }
+    </script>
+</body>
+</html>

@@ -1,7 +1,8 @@
 # JavaScript
 Notas sobre entrenamiento JavaScript y repaso de conceptos básicos de programación.
 
-El trabajo en este cuaderno inició en otro repositorio. Se separó por simplificación y órden.
+Este entrenamiento es parte de los cursos [*Especialista en Java - Desde cero a Master*](
+https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-master/learn/lecture/40297082#overview) y [*JavaScript - De cero a experto*](https://www.udemy.com/course/universidad-javascript-angular-react-vue-typescript-html-css-bootstrap/learn/lecture/40314964#overview), y han sido tomados con el instructor de [Global Mentoring](http://globalmentoring.com.mx) a través de [Udemy](https://www.udemy.com/). 
 
 ## RUTA:
 
@@ -91,14 +92,29 @@ Java(TBD) ⤶ ⤷ IA(TBD)
 15. Promesas
     1. [Promesas](/15.promesas/01.promesas.js)
         ![Diagrama de promesas](/15.promesas/01.promesas.png "Funcionamiento de promeas en JS")
-
     2. [Promesas y *setTimeout*](/15.promesas/02.promesasYSetTimeout.js)
     3. [*async*](/15.promesas/03.palabraAsync.js)
     4. [*await*](/15.promesas/04.awaitAsync.js)
     5. [*async*, *await* y *setTimeout*](/15.promesas/05.asyncAwaitSetTimeout.js)
-
-16. DOM HTML y JavaScript
-
+16. [DOM HTML y JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)[<sup>1<sup>](/README.md#1-html-y-css-son-prerequisitos)
+    1. [*getElemensById()*](/16.DOM/01.getElementById.html)
+    2. [*getElementsByTagName()*](/16.DOM/02.getElementByTagName.html)
+    3. [*getElementsByClassName()*](/16.DOM/03.getElementsByClassName.html)
+    4. [*querySelectorAll()*](/16.DOM/04.querySelectorAll().html)
+    5. [Formularios DOM JS](/16.DOM/05.formulariosDOM.html)
+    6. [*document.write()*](/16.DOM/06.document.write.html)
+    7. [Modificación de atributos usando DOM](/16.DOM/07.modificacionAtributosConDOM.html)
+    8. [Cambio de estilo usando DOM](/16.DOM/08.cambioCSSconDOM.html)
+17. Manejo de eventos con DOM, HTML y JS
+    1. [Evento *onclick*](/17.eventosDOM/01.click.html)
+    2. [Asignación de eventos a elementos HTML desde JS](/17.eventosDOM/02.asociacionEventos.html
+    3. [Evento *onload* y verificacion de *cookies*](/17.eventosDOM/03.onload.html)
+    4. [Evento *onchange* y funcion *toUpperCase()*](/17.eventosDOM/04.onchange.html)
+    5. [Eventos del mouse](/17.eventosDOM/05.eventosMouse.html)
+    6. [Eventos *onfocus* y *onblur*](/17.eventosDOM/06.focusBlur.html)
+    7. [*addEventListener*](/17.eventosDOM/07.addEventListener.html)
+    8. [Funciones flecha con *addEventListener*](/17.eventosDOM/08.flechaEventos.html)
+    9. [Delegación de eventos](/17.eventosDOM/09.delegacionEventos.html)
 99. Ejercicios y ejemplos
     1. [Ejercicio de herencia, polimorfismo, sobreescritura y elementos estáticos](/99.ejercicios/01.herencia.js)
         ![UML Ejercicio](/99.ejercicios/01.herencia.jpg "UML ejercicio herencia")
@@ -110,6 +126,9 @@ Java(TBD) ⤶ ⤷ IA(TBD)
         ![UML Ejercicio](/99.ejercicios/03.proyectoMundoPc.UML.png)
         ![Ejemplo Output](/99.ejercicios/03.proyectoMundoPc.Output.png)
 
+    4. [Calculadora Básica con Bootstap](/99.ejercicios/04.calculadora/index.html)
 
+### Notas
+#### <sup>1<sup> HTML y CSS son prerequisitos
 
 [Volver al inicio](#)

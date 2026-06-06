@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delegación de eventos</title>
+</head>
+<body>
+
+   <h1 id="titulo" >Manejo de eventos con DOM</h1>
+
+    <br/>
+
+    <form id="forma">
+        Nombre: <input type="text"/>
+        <br/><br/>
+        Apellido: <input type="text"/>
+    </form>
+
+    <script>
+        // podemos simplificar mucho el codigo si relacionamos los eventos a los elementos hijos
+        const forma = document.getElementById('forma');
+
+        forma.addEventListener('focus', (evento)=>{
+            evento.target.style.background = 'pink';
+        }
+        , true); // con esto indicamos que se aplique para los elementos internos
+        forma.addEventListener('blur', (evento)=>{evento.target.style.background = 'white';}, true); // parametro useCapture
+    </script>
+</body>
+</html>

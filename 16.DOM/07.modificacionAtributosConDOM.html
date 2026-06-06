@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificación de atributos con DOM</title>
+</head>
+<body>
+    <h1>Modificación de atributos con DOM</h1>
+
+    <button onclick="mostrar()">Mostrar</button><br/>
+
+    <img id="imagen" src="./js.png"/>
+
+    <script>
+        function mostrar(){
+            document.getElementById('imagen').src = './html5.png';
+        }
+    </script>
+</body>
+</html>

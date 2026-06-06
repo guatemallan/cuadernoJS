@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener con funciones flecha</title>
+</head>
+<body>
+
+   <h1 id="titulo" >Manejo de eventos con DOM</h1>
+
+    <br/>
+
+    Nombre: <input type="text" id="nombre"/>
+
+    <br/><br/>
+    Apellido: <input type="text" id="apellido"/>
+
+    <script>
+        // no podremos reutilizar el código
+        document.getElementById('nombre').addEventListener('focus', (evento)=>{evento.target.style.background = 'pink';});
+        document.getElementById('nombre').addEventListener('blur', (evento)=>{evento.target.style.background = 'white';});
+    </script>
+</body>
+</html>

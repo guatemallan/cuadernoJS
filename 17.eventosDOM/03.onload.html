@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onload</title>
+</head>
+<!-- Vamos a utilizar el evento onload en el body -->
+ <!-- NO OLVIDAR EL PARENTESIS -->
+<body onload="entrar()">
+
+    <h1 id="titulo">Manejo de eventos con DOM</h1>
+
+    <br/>
+
+    <div id="mostrar"></div>
+
+    <script>
+        function entrar(){
+            alert('Entrando a la página web!');
+            // revisar si se habilitan las cookies
+            let texto = '';
+            // navigator hace referencia al navegador web
+            if(navigator.cookieEnabled){
+                texto = 'Las cookies SI estan habilitadas!';
+            } else texto = 'Cookies desabilitadas :(';
+            document.getElementById('mostrar').innerHTML = texto;
+        }
+    </script>
+</body>
+</html>

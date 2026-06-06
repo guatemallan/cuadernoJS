@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento mouse</title>
+</head>
+<body>
+
+    <!-- Algunos de los eventos con el mouse -->
+    <h1 id="titulo" 
+        onmouseover="rojo(this)"
+        onmouseout="azul(this)"
+        onmousedown="presionarclick(this)"
+        onmouseup="liberarclick(this)"
+    >Manejo de eventos con DOM</h1>
+
+    <br/>
+
+    <div id="texto"></div>
+
+    <script>
+        texto = document.getElementById('texto');
+        function rojo(titulo){
+            titulo.style.color = 'red';
+            texto.innerHTML = 'onmouseover';
+        }
+        function azul(titulo){
+            titulo.style.color = 'blue';
+            texto.innerHTML = 'onmouseout';
+        }
+        function presionarclick(titulo){
+            titulo.style.color = 'green';
+            texto.innerHTML = 'onmousedown';
+        }
+        function liberarclick(titulo){
+            titulo.style.color = 'orange';
+            texto.innerHTML = 'onmouseup';
+        }
+    </script>
+</body>
+</html>
