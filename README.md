@@ -1,7 +1,8 @@
 # JavaScript
 Notas sobre entrenamiento JavaScript y repaso de conceptos básicos de programación.
 
-El trabajo en este cuaderno inició en otro repositorio. Se separó por simplificación y órden.
+Este entrenamiento es parte de los cursos [*Especialista en Java - Desde cero a Master*](
+https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-master/learn/lecture/40297082#overview) y [*JavaScript - De cero a experto*](https://www.udemy.com/course/universidad-javascript-angular-react-vue-typescript-html-css-bootstrap/learn/lecture/40314964#overview), y han sido tomados con el instructor de [Global Mentoring](http://globalmentoring.com.mx) a través de [Udemy](https://www.udemy.com/). 
 
 ## RUTA:
 
@@ -124,6 +125,8 @@ Java(TBD) ⤶ ⤷ IA(TBD)
     3. [Mundo PC](/99.ejercicios/03.proyectoMundoPC.js)
         ![UML Ejercicio](/99.ejercicios/03.proyectoMundoPc.UML.png)
         ![Ejemplo Output](/99.ejercicios/03.proyectoMundoPc.Output.png)
+
+    4. [Calculadora Básica con Bootstap](/99.ejercicios/04.calculadora/index.html)
 
 ### Notas
 #### <sup>1<sup> HTML y CSS son prerequisitos
