@@ -127,6 +127,7 @@ Java(TBD) ⤶ ⤷ IA(TBD)
         ![Ejemplo Output](/99.ejercicios/03.proyectoMundoPc.Output.png)
 
     4. [Calculadora Básica con Bootstap](/99.ejercicios/04.calculadora/index.html)
+    5. [Listado de personas](/99.ejercicios/05.listadoPersonas/index.html)
 
 ### Notas
 #### <sup>1<sup> HTML y CSS son prerequisitos
