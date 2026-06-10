@@ -12,6 +12,9 @@ Este cuaderno se complementa con otros repositorios para completar la ruta de en
 
 Java(TBD) ⤶ ⤷ IA(TBD)
 
+## Chivo
+
+[Chivo de JavaScript.](/chivo.md)
 
 ## Contenidos JavaScript
 
